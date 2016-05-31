@@ -1,0 +1,222 @@
+diff -ruN data/01/log.json data_new/01/log.json
+--- data/01/log.json	2015-06-29 22:24:17.260404125 +0800
++++ data_new/01/log.json	2015-06-29 22:02:09.772406930 +0800
+@@ -10202,7 +10202,7 @@
+                 "tourist_act": "ACK"
+             }, 
+             "speaker": "Guide", 
+-            "transcript": "There are lots of %restaurants out there- and you can-", 
++            "transcript": "There are lots of restaurants out there- and you can-", 
+             "utter_index": 901
+         }, 
+         {
+diff -ruN data/02/label.json data_new/02/label.json
+--- data/02/label.json	2015-06-29 22:24:17.248404125 +0800
++++ data_new/02/label.json	2015-06-29 22:07:26.240406261 +0800
+@@ -766,7 +766,6 @@
+         {
+             "semantic_tagged": [
+                 "<FEE CAT=\"MAIN\">A thousand</FEE>, %uh.", 
+-                "%Oh.", 
+                 "%Oh <FEE CAT=\"MAIN\">three thousand</FEE>, okay."
+             ], 
+             "speech_act": [
+@@ -9537,7 +9536,6 @@
+             }, 
+             "semantic_tagged": [
+                 "No.", 
+-                "%Oh.", 
+                 "But in other parts you have?"
+             ], 
+             "speech_act": [
+diff -ruN data/03/label.json data_new/03/label.json
+--- data/03/label.json	2015-06-29 22:24:17.256404125 +0800
++++ data_new/03/label.json	2015-06-29 22:07:26.328406261 +0800
+@@ -15578,7 +15578,7 @@
+                 ]
+             }, 
+             "semantic_tagged": [
+-                "30</TIME>."
++                "%Uh but again if you want to visit the <LOC FROM-TO=\"NONE\" REL=\"NONE\" CAT=\"TEMPLE\">mosque</LOC>, you try to time your timing let's say before <TIME CAT=\"MAIN\" REL=\"BEFORE\">4:30</TIME>."
+             ], 
+             "speech_act": [
+                 {
+@@ -19398,7 +19398,6 @@
+         {
+             "semantic_tagged": [
+                 "But %uh if you are coming in <TIME CAT=\"DATE\" FROM-TO=\"NONE\" REL=\"NONE\">April</TIME>", 
+-                "%Hm.", 
+                 "Okay."
+             ], 
+             "speech_act": [
+diff -ruN data/06/label.json data_new/06/label.json
+--- data/06/label.json	2015-06-29 22:24:17.260404125 +0800
++++ data_new/06/label.json	2015-06-29 22:07:26.480406261 +0800
+@@ -14174,7 +14174,7 @@
+         {
+             "frame_label": {
+                 "ACTIVITY": [
+-                    "Animal feeding"
++                    "Animal feed"
+                 ], 
+                 "PLACE": [
+                     "Jurong Bird Park"
+@@ -14196,7 +14196,7 @@
+         {
+             "frame_label": {
+                 "ACTIVITY": [
+-                    "Animal feeding"
++                    "Animal feed"
+                 ], 
+                 "PLACE": [
+                     "Jurong Bird Park"
+@@ -14218,7 +14218,7 @@
+         {
+             "frame_label": {
+                 "ACTIVITY": [
+-                    "Animal feeding"
++                    "Animal feed"
+                 ], 
+                 "PLACE": [
+                     "Jurong Bird Park"
+@@ -14240,7 +14240,7 @@
+         {
+             "frame_label": {
+                 "ACTIVITY": [
+-                    "Animal feeding"
++                    "Animal feed"
+                 ], 
+                 "PLACE": [
+                     "Jurong Bird Park"
+@@ -14262,7 +14262,7 @@
+         {
+             "frame_label": {
+                 "ACTIVITY": [
+-                    "Animal feeding"
++                    "Animal feed"
+                 ], 
+                 "PLACE": [
+                     "Jurong Bird Park"
+@@ -14291,7 +14291,7 @@
+         {
+             "frame_label": {
+                 "ACTIVITY": [
+-                    "Animal feeding"
++                    "Animal feed"
+                 ], 
+                 "PLACE": [
+                     "Jurong Bird Park"
+@@ -14313,7 +14313,7 @@
+         {
+             "frame_label": {
+                 "ACTIVITY": [
+-                    "Animal feeding"
++                    "Animal feed"
+                 ], 
+                 "PLACE": [
+                     "Jurong Bird Park"
+@@ -14342,7 +14342,7 @@
+         {
+             "frame_label": {
+                 "ACTIVITY": [
+-                    "Animal feeding"
++                    "Animal feed"
+                 ], 
+                 "PLACE": [
+                     "Jurong Bird Park"
+@@ -19201,7 +19201,7 @@
+                 ]
+             }, 
+             "semantic_tagged": [
+-                "And they serve you with this orangey kind of <FOOD CAT=\"MAIN\"><FOOD CAT=\"MAIN\">gravy</FOOD></FOOD>", 
++                "And they serve you with this orangey kind of <FOOD CAT=\"MAIN\">gravy</FOOD>", 
+                 "which is a little bit sweet and just a tinge of spice in there."
+             ], 
+             "speech_act": [
+diff -ruN data/07/label.json data_new/07/label.json
+--- data/07/label.json	2015-06-29 22:24:17.248404125 +0800
++++ data_new/07/label.json	2015-06-29 22:07:26.548406260 +0800
+@@ -12428,7 +12428,6 @@
+             "semantic_tagged": [
+                 "%Uh you can go to-", 
+                 "%Uh maybe you can go because-", 
+-                "%er-", 
+                 "will you be staying one night in <AREA FROM-TO=\"NONE\" REL=\"NONE\" CAT=\"CITY\">Singapore</AREA>", 
+                 "or you were proceeding straight to the <LOC FROM-TO=\"TO\" REL=\"NONE\" CAT=\"AIRPORT\">airport</LOC>", 
+                 "after the <LOC CAT=\"ATTRACTION\" FROM-TO=\"NONE\" REL=\"NONE\">theme park</LOC>?"
+diff -ruN data/08/label.json data_new/08/label.json
+--- data/08/label.json	2015-06-29 22:24:17.244404125 +0800
++++ data_new/08/label.json	2015-06-29 22:07:26.644406260 +0800
+@@ -14988,7 +14988,6 @@
+             }, 
+             "semantic_tagged": [
+                 "But", 
+-                "%uh %huh.", 
+                 "Okay."
+             ], 
+             "speech_act": [
+diff -ruN data/10/label.json data_new/10/label.json
+--- data/10/label.json	2015-06-29 22:24:17.260404125 +0800
++++ data_new/10/label.json	2015-06-29 22:07:26.832406260 +0800
+@@ -14363,7 +14363,6 @@
+             }, 
+             "semantic_tagged": [
+                 "Lucky~", 
+-                "%Ah.", 
+                 "But it's not actually a place", 
+                 "it's more of an event like it happens-"
+             ], 
+diff -ruN data/12/label.json data_new/12/label.json
+--- data/12/label.json	2015-06-29 22:24:17.252404125 +0800
++++ data_new/12/label.json	2015-06-29 22:07:26.948406260 +0800
+@@ -2897,7 +2897,6 @@
+             }, 
+             "semantic_tagged": [
+                 "Tak~", 
+-                "%Hm.", 
+                 "okay."
+             ], 
+             "speech_act": [
+@@ -6307,7 +6306,7 @@
+                 ]
+             }, 
+             "semantic_tagged": [
+-                "So you'll get off at <TRSP CAT=\"STATION\" FROM-TO=\"TO\" REL=\"NONE\">Chinatown</TRSP>, you are right in the heart of <LOC FROM-TO=\"NONE\" REL=\"MAIN\" CAT=\"CULTURAL\">Chinatown</LOC>."
++                "So you'll get off at <TRSP CAT=\"STATION\" FROM-TO=\"TO\" REL=\"NONE\">Chinatown</TRSP>, you are right in the heart of <LOC FROM-TO=\"NONE\" REL=\"NONE\" CAT=\"CULTURAL\">Chinatown</LOC>."
+             ], 
+             "speech_act": [
+                 {
+diff -ruN data/16/label.json data_new/16/label.json
+--- data/16/label.json	2015-06-29 22:24:17.256404125 +0800
++++ data_new/16/label.json	2015-06-29 22:07:27.104406259 +0800
+@@ -6055,7 +6055,6 @@
+         {
+             "semantic_tagged": [
+                 "Right %uh mu~", 
+-                "%Oh.", 
+                 "that's good, because I've been to %uh", 
+                 "what's that place called in <AREA FROM-TO=\"NONE\" REL=\"NONE\" CAT=\"MAIN\">Florida</AREA>, <AREA FROM-TO=\"NONE\" REL=\"NONE\" CAT=\"COUNTRY\">US</AREA>?"
+             ], 
+diff -ruN data/19/label.json data_new/19/label.json
+--- data/19/label.json	2015-06-29 22:24:17.240404125 +0800
++++ data_new/19/label.json	2015-06-29 22:07:27.244406259 +0800
+@@ -12548,7 +12548,6 @@
+             }, 
+             "semantic_tagged": [
+                 "It's-", 
+-                "%Ah.", 
+                 "%Uh there is one with <DET CAT=\"MAIN\">art and craft</DET> from Sarawak Jewellery %uh and %uh bas~ woven clothings that the villagers used to make."
+             ], 
+             "speech_act": [
+diff -ruN data/26/label.json data_new/26/label.json
+--- data/26/label.json	2015-06-29 22:24:17.240404125 +0800
++++ data_new/26/label.json	2015-06-29 22:07:27.708406258 +0800
+@@ -362,7 +362,7 @@
+                 ]
+             }, 
+             "semantic_tagged": [
+-                "<DET CAT=\"EVENT\">Formula One</DET> is in <TIME CAT=\"DATE\" FROM-TO=\"NONE\" REL=\"MAIN\">September</TIME>."
++                "<DET CAT=\"EVENT\">Formula One</DET> is in <TIME CAT=\"DATE\" FROM-TO=\"NONE\" REL=\"NONE\">September</TIME>."
+             ], 
+             "speech_act": [
+                 {
